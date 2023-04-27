@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mother</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;800;900;1000&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+        body {
+            background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+            background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg") no-repeat center center fixed;
+            background-size: cover;
+            font: 14px/20px "Lato", Arial, sans-serif;
+            color: #9e9e9e;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 0.5rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif !important;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+
+        .dialogue {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            max-width: 70%;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .dialogue.right {
+            margin-left: auto;
+        }
+
+        .dialogue.left img {
+            order: -1;
+            margin-right: 10px;
+        }
+
+        .dialogue.right img {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px; font-size: 16px;line-height: 2rem;">
+            <h2 style="color:#333">ملخص القصة</h2>
+            <br><br>
+            <span style="background-color: #f45; padding: 8px;border-radius: 5px;color: #fff">هناك حرق لأحدات في ملخص
+                القصة</span>
+            <br>
+            <br>
+            كان الولد يعيش مع والدته الوحيدة التي كانت تحبه بشدة، كانت تعمل بجد لتوفير كل ما يحتاجه الولد. وكان الولد
+            يحبها أيضاً، فهي كانت أفضل صديقة وأم له في الوقت نفسه.
+            <br>
+            في أحد الأيام، توفيت الأم بشكل مفاجئ. تأثر الولد بشدة بفقدان أمه الحبيبة، لم يكن قادراً على تصور حياته
+            بدونها. بعد بضعة أسابيع، قرر الولد استكشاف الصداقات المقربة لأمه، أملًا في العثور على الدعم الذي يحتاجه.
+            <br>
+            التقى الولد بصديقة مقربة من والدته، التي كانت تزورها بانتظام. كانت تعرف عن حياة والدته وعن علاقتهما المقربة،
+            وكان الولد يثق بها بشدة. لكن في يوم من الأيام، كشفت له الصديقة المقربة مفاجأة صادمة: كانت أمه تعاني من مرض
+            وأن سبب وفاتها هو الدواء الخاطئ الذي أعطته لها.
+            <br>
+            كان الولد يشعر بالصدمة والحزن والغضب، كانت الصديقة المقربة قد سببت وفاة أمه بشكل غير مقصود. شعر الولد بأنه
+            فقد كل شيء، وأنه لا يستطيع الثقة بأي شخص آخر بعد ذلك.
+            <br>
+            مرت الأيام والأسابيع، وكان الولد يحاول تجاوز هذه المحنة المؤلمة. لكنه لم يتمكن من التخلص من الألم الذي كان
+            يشعر به. كان يشعر بالوحدة والغضب والحزن، ولم يكن لديه أحد يتحدث معه ويشاركه أحزانه.
+            <br>
+            وهكذا، تعلم الولد أن الثقة في الآخرين هي شيء صعب جداً، وأن الحياة قد تكون قاسية ومؤلمة في بعض الأحيان. لكنه
+            في النهاية تعلم أنه يجب أن يبقى قوياً ويعيش حياته بشكل إيجابي، وأن يحتفظ بما كان يحبه في قلبه وذاكرته، وأن
+            يحاول تحقيق أحلامه وأهدافه في الحياة.
+        </div>
+        <br><br>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            <h2>الفصل الأول</h2>
+            <br>
+            يتحدث هذا الفصل عن فترة الولد محمد و أمه سمية و تلك الحياة الوردية يعني 😅
+        </div>
+        <br><br>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong> أمي، أنا أحبكِ كثيراً</span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>أنا أحبك أكثر، يا حبيبي. أنت كل شيء بالنسبة لي</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong> أنا أعرف ذلك، وأنا أيضاً أحب كيفية تعاملنا مع بعضنا البعض. نحن أصدقاء وأيضاً عائلة.</span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>نعم، أنا أحب كيفية تعاملنا مع بعضنا البعض أيضاً. أنتِ أفضل صديق لي، وأنا سعيدة لأنني أم.</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>أنا أيضاً سعيد لأنكِ أمي. لا يمكنني التخيل حياتي بدونكِ</span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>لا تقل ذلك يا حبيبي. أنا هنا دائماً لأساندكِ وأحبك بشدة</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>الآن سأخرج قليلا للتنزه و أذهب مباشرة إلى بيت أم صديقك هل ستأتي أيضا ؟</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>لا لا لن أذهب أحب البقاء في المنزل</span>
+        </div>
+
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>حتى صديقتك ستكون هناك و صديقك ستكون تجميعة رائعة لكم هل قررت</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>لا سأبقي هنا و أنتطرك بفارغ الصبر لتروي لي قصصا أخرى عن طفولتك سيكون رائعا التعرف على طفولة أمي 😁</span>
+        </div>
+
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>حسنا إذا تريد أكل أي شيء كل شيء جاهز في التلاجة ولكن الأكل بارد لا تنسى تسخينه.</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>حسنا حسنا فل تذهبي لكي لا تتأخري أكثر</span>
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "ذهبت الأم في نزهة و قصدت المنزل مباشرة"
+        </div>
+        
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>(يطرق الباب) هل أنت هنا يا سارة أجيبي</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>نعم نعم أنا هنا فل تنتطري أنا قادمة (فتحت الباب) أهلا بكي فل تذخلي وترتاحي قليلا وسأجهز لك دوائك</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>شكرا لك هل صدقاه هنا يعني علي و فاطمة ؟</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>لا علي لم يأتي فقط صديقته التي أتت</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>نعم الأولاد يشبهون بعضهم لا يريدون الخروج من البيت المهم لا بأس فل ندخل</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "قابلة الأم مع صديقة إبنها فاطمة و سلمت عليها وجلسوا يتحدثون قليلا" بالطبع يتحدثون عن أناس آخرين كما العادة
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>(فجأة تغيرت  تعابير وجه سارة إلى تعابير حزينة قليلا) هل أخبرتي محمد بشأن مرضك السكري من النوع الثاني ؟</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "هنا نحتاج إلى ذكر أن الأم تعاني من مرض السكري من النوع الثاني كانت تحتاج إلى أخد العديد من الأدوية للتحكم في مستويات السكر في الدم و كانت تأمل في الحصول على العلاج المناسب للتحكم في المرض من أجل إبنها محمد"
+        </div>
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>(بدت الأم مرتبكة وتتمتم) لا لا سيقلق أكثر على وسيشتت ذلك مستقبله</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>هل أنت غبية في هذه الأوقات أبعدي تلك العاطفة وكأنه أذا متي وعرف بشأن مرضك كيف ستكون ردة فعله سيقول هذا سببي و سيلومني كذلك لعدمي إخبارى له أنك مريضة</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>ستحل كل الأمور ستكون بخير سيعرف كم كنت أحبه ولا أريد تشتيته و سيتفهم و يمضي قدما</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>تعرفين أنك لست في هذا العالم السعيد سيمضي قدما متى إلى أن ينساك لذيه أصلا عقدة منك أضمن لك أنه ينتظرك الآن بفارغ الصبر و الوقت متأخر</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>لا تحطمي أمالي هكذا 😣</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "دخلت صديقة محمد فاطمة "
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>هل أحضر لكم بعض القهوة</span>
+            <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>نعم نعم و لا تنسي جلب دواء ام محمد تركته في المطبخ</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>حسنا سأحضر القهوة الآن سأجعها قوهتا لذيدة أوه لكي لا أنسى سأخد دواء أم محمد لمرض السكري</span>
+            <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>
+                بالمناسبة يا سارة هل تتعافين من الزهايمر كيف حالك مع المرض</span>
+            <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>نعم آخد دواء غلوبيزايد لمرض الزهايمر وأتعفى تدريجيا</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>حسنا القهوة جاهزة و خدي دوائك يا خالتي(أم محمد)</span>
+            <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "بعد إنتهاءهم من شرب القهوة والإكثار في الحديث تفرقو كل ذهب إلى منزله"
+        </div>
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>
+                حسنا يا سارة سوف آخد دوائي لن أعود كي أخده منك كي لا أخفي كثير عن المرض لولدي سأخده بشكل تدريجي و الأسبوع القادم سأخبر ولدي بشأن مرضي
+                <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>حسنا فل ترافقكي السلامة</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "رجعت أم محمد للبيت و إبنها إستقبلها بكل فرح "
+        </div>
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>
+                مرحبا يا بني أكلت هل مر كل شيء بشكل بخير
+                <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>نعم يأمي لا تقلقي فل ننم و نستيفط غدا ونبدأ يوما جديد</span>
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "دهبو للنوم و إستيقوطو ومر أسبوع على أخد الدواء الخاص بالأم و بقي فقط من الأسبوع يومين و أصبحت الأم جاهزة لمصارحة إبنها بشأن المرض"
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "وهنا نرجع إلى سارة التي تأخد دواءها بشكل أسبوع تبحث عن دائها في المطبخ ولم تجده و إتصلت بصديقة أحمد فاطمة و لم يكن لها علم بمكان الدواء"
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>لا لا أين دؤائي مصيبة سأتفقد هذا الدرج (فحت سارة الدرج) أوه هذا الدواء يبدو مؤلوفا أنه ليس لي إنه دواء السكري !!!!! مهلا مهلا ماذا يحدث هنا أخدت أم محمد دوائها و لم أجد دوائي هنا و قالت لي أنه تأخدها بشكل تدريجي لا لا مصيبة كبيرة و لا تتصل في هاتفها و البيت الخاص بها بعيد سأذهب بسرعة !!!! 😵</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "وهنا مع محمد وأمه"
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>امي ماذا بك هذا الأسبوع لست على طبيعتك هل بسبب عملك لأجلي فل ترتاحي قليلا</span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>الأم: </strong>
+                لا لا ليس هذا (سقطت الأم أرضا)
+                <img width="100px" src="imgs/teacher.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>(محمد يصرخ) لا لا ماذا يحدث هنا كنت أعرف أن هناك شيء غير طبيعي لاااااا</span>
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "أخدها محمد إلى المستشفى بسرعة و ذهبو بها إلى الطبيب ولكن كان المستشفى مليئا جداا يالا سوء حطك يا محمد"
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>هل من أحد هنا أرجوكم ساعدوني هذا ما بقي لي في الحياة إذا ذهب لن يكون لذي سبب للعيش (أمسك يد طبيب) أرجوك ساعدني (تركه الطبيب صادما إياه).</span>
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "ماتت أمه بين يديه ولم يستجب له أحد إلى أن جاء أحد الأطباء فأخدها ولكن قال له فات الأوان لو انك أحضرتها أبكر لأنقدناها وأخبره الطبيب بأمر مرض أمها والطبيب مستغرب لموتها رغم أخدها الدواء"
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>لا لا تمزح معي لم يستجب لي أحد لا لا وكيف مرضها لماذا لم تعلمني هل كنت عائقا لها فحسب وسارة لم تخبرني اضنها تعرف لهذا تذهب عندها يوميا</span>
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>(محمد مرتبك جدا) لا لا تأخد دواءها لماذا لماذا</span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>(سارة تتصل في الهاتف رين رين رين أخد محمد هاتف أمه ليرد) مرحبا يا أم محمد هل أنت بخير لاحطت أنك أخدتي دوائي لزاهايمر عن طريقة الخطاء ربما صديقة محمد من غيرته عن طريق الخطاء تأخدينه لأسبوع هل أنت بخير ألو ألو لماذا لا تجيبنني</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>(محمد في حالة صدمة) هكذا إذا أنتم مجرد خونة كيف لي ان أتق بشخص آخر حتى صديقتي المقربة سلبت مني الشيء العزيز علي حتى لو كان عن طريق الخطأ</span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>محمد كيف ماذا تقول لا تقل لي 😨 وقع لها شيء هل اتي إليك هل هي بخير إستيقطت</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>فل تغربي عن وجهي كيف لشخص ميت أن يستيقظ مرة أخرى مهزلة مات أعز شيء لذي عن طريق الخطأ فقط أتركيني</span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>(تتصل سارة بصديقة محمد رين رين رين...) ألو فل تجيبي ألو</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>
+                (فاطمة في حالة خوف بسبب معرفتها السابقة لأنها غير الدواء بدون قصد) آسفة آسفة لا أعرف ماذا أقول أسفة كيف أريه وجهي مرة أخرى لم أكن شجاعة لأكلم أم محمد بأني غيرت الدواء من غير قصد</span>
+            <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>(سارة في حالة صدمة) كرري ما قلته ماذا ماذا هل كنت تعرفين ولم تخبريها كيف تعرفين أنها أعز شخص لذا محمد هل أنت بكامل قواك العقلية</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>
+                أعرف أعرف (والحزن في وجهها وتبكي بشدة) أعرف لم أكن شجاعة كنت خائفة و كنت أحب محمد كنت مستعدة لأعترف له بمشاعري ولكن عملت أكبر خطأ في حياتي
+            <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>شكرا لأنك أتبث عدم شجاعتك حطمتي الولد و كل ما تفكرين به هو المواعدة</span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>
+                (غضبت فاطمة وحطمت المكان الذي فيها مع صرخات تقول) إرحل إرحل أنا ضعيفة
+                <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "يوم جنازة أم محمد حضرت سارة لتواسه و حضرت أيضا فاطمة بشق الأنفس كانت تفكر في ذهابها أم لا وقررت ذلك وكانت تختبئ خلف الناس لكي لا يراها محمد"
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>
+                تنحو قليلا لا أريده أن براني (فاطمة تدعو اللهم إرحم إمه وإغفر لي على خطائي)
+                <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "وهنا إستجمعت فاطمة سجاعتها وذهب إلى محمد لكي تقول له آسف لم أكن أقصد"
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>
+                محمد محمد إنتطر أرجوك
+                <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>يبدو هذا الصوت مؤلفا (إلتفت محمد ووجد صديقته تصرخ) ششششش</span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>
+                أرجوك سامحني لم أكن أقصد أرجوك لقد تشتت ولم أعرف ماذا افعل و الله ليس ذنبي هل أنت بخير هل إجتزت المرحلة هذه
+                <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                نعم إجتزتها بفضل دعمك لي كل هذا الوقت شكرا لك ياصدقتي
+            </span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>
+                لا شكر على واجب صديقي
+                <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                هل حقا تمزيحين ساعدتني في ماذا في إختبائك شكرا لأنك لم تخرجي إلا في يوم جنازتي قد زدت أكرهك لا ترني وجهك ثانية
+            </span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>
+                محمد...
+                <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                صمتا محمد محمد ما هذا الصوت الرقيق هل تمزيحين معي أمي ماتت عن طريق الخطأ أعتبرها موتا غبيا المهم آسف لا أريد قول أشياء غبية بسبب غضبي
+            </span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>
+                فقط إسمعني سامحني فقط
+                <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                ماذا أسامحك وتذهبين إلى منزلك في راحت بال لأني سامحتك المنزل أصبح فارغا الآن أسبوع لم اجد الطعام في التلاجة ولم يخبرني أحد بأن أسخنه أين الدعم أنا لا أراه
+            </span>
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                لا أستطيع التقة بأي شخص آخر بعد ما حدت أصبحت فارغا
+            </span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>فاطمة: </strong>
+                أنا آسفة لسماع ذلك
+                <img width="100px" src="imgs/fatima.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                شكرا لأسفك سأغادر حتى أنا هذه الحياة الملئة بالكاذبين
+            </span>
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "ذهب محمد لينتحر وهو يشنق نفسه"
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                سافارق هذه الحياة الغبية و أترككم ترتاحون مني (بدأ محمد يفكر مع نفسه) أعتقد أنني سأفعلها أصلا البيت فارغ لا يوجد من ينقدني
+            </span>
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "و فجأة سمع محمد دق الباب بشكل قوي وتصرخ سارة"
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>
+                لا تفعل لا تفعل لا تنتحر (أين سمعت سارة أنه سينتحر، من صديقته فاطمة)
+            </span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>
+                إسمع كنت أخبر أمك أن تقول لك بشأن مرضا وأنها ربما ستموت ويقع نفس الحدث تخبرني دائما لا تقلقي أعرف ولدي لن يقدم على أمر كهذا...
+            </span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>
+                سيمضي قدما
+            </span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                فل تصتمي أيها العجوز ماذا تعرفين لذيك ولد بيتك ليس فارغا أنا بيتي فارغ
+            </span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>
+                ماذا أعرف هي أعز أصدقائي أحس بك
+            </span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                ليست أمك لا تحسين بي الأمر سهل عليك لو أنني فقدت صديق لن يمر شهر وأنساه وأعود إلى روتيني أنت تتحدثين عن أمي            </span>
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>
+                إذا ساتبناك يوجد صديقك في البيت هل تعتقد أن أمك تريدك أن تنتحر بدل كل هذا ركز على أحلامك وأهدافك
+            </span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "ترك محمد الحبل ونزل من على الكرسي وجلس على ركبتيه باكيا و محطما"
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                قد ضعت لا أعرف ماذا اريد أن أكون بعد الآن أنا ضائع
+        </div>
+        <div class="dialogue right">
+            <span><strong>سارة: </strong>
+                (أمسكت سارة بيده) تعال لا تكثر من الحديث يالك من غبي كنت أعتقد أنك قوي ساتبناك وتعيش معي وتركز على أهدافك
+            </span>
+            <img width="100px" src="imgs/mother.png" alt="Person 2">
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                حسنا سيكون على الأقل أمرا جيد أن أسكن مع صدقتي أمي المفضلة شكرا سأجتاز هذه المحنة
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "يسير محمد باكيا دائما كل يوم لم يقدر على نسيانها ولكن وجد.أهدافه و ركز عليها من أجل أمه وكان حلمه أن يكون كاتبا وهو يكتب في يوم من الايام عن قصة...."
+        </div>
+        <div class="dialogue left">
+            <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+            <span><strong>محمد : </strong>
+                يا أمي كنت سأكتب عن قصص طفولتك ولكن تركتني سأركز على أهدافي وأبني طفولة بدون ضياع للوقت في اللعب كي أسردها لأبنائي و العالم أيضا
+        </div>
+        <div dir="rtl"
+            style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+            "تحسن محمد وركز على أهدافه وتزوج ولكن كان الزواج صعبا لعدم تقته الكاملة بالأشخاص أصبح أكثر حذرا و اصبح لذيه العديد من الكتب المشهورة عن إجتياز العقبات و الكتب الحزينة و عن حنان الأم وغيرها وهكذا تنتهي قصتنا بتجاوز محمد لمحنته و تحقيق أهدافه و وبدأ يسرد ماضيه لأولاده قائلا لا تفعلوا مثلي كونو أقوياء رغم الفراق وركزو على أهدافكم ودينكم سيأتي يوم يزول فيه كل شيء كأنه لم يكن."
+        </div>
+    </div>
+</body>
+
+</html>

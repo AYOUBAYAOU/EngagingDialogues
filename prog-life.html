@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Life</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;800;900;1000&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+    body {
+      background: linear-gradient(to bottom, #585757 0%, #af877c 65%, #af877c 100%) fixed;
+      background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg") no-repeat center center
+          fixed;
+      background-size: cover;
+      font: 14px/20px "Lato", Arial, sans-serif;
+      color: #9e9e9e;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      padding: 0.5rem;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Cairo', sans-serif !important;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+
+    .dialogue {
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      max-width: 70%;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .dialogue.right {
+      margin-left: auto;
+    }
+
+    .dialogue.left img {
+      order: -1;
+      margin-right: 10px;
+    }
+
+    .dialogue.right img {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div dir="rtl"
+      style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+      <h2 style="color:#333">ملخص القصة</h2>
+      تدور هذه القصة حول عمر، طفل كان يشعر بالانعزال والتنمر في المدرسة، ولكنه كان يحب حل المشاكل والتفكير بإبداع. اكتشف
+      عمر البرمجة وبدأ بتعلمها بنفسه، وبالعمل الجاد والمثابرة، تحول إلى واحد من أشهر المبرمجين في العالم. لم ينسى عمر
+      تجربته الصعبة وقرر الانتقام بمساعدة الآخرين في تحقيق أحلامهم، وبهذا الشكل، أصبح قدوة للكثيرين وأثبت أن النجاح يأتي
+      من العمل الجاد ومن مساعدة الآخرين.
+    </div>
+    <br><br>
+    <div dir="rtl"
+      style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+      <h2>الفصل الأول</h2>
+      يتحدث هذا الفصل عن طفولة عمر و ذهابه إلى المدرسة والمشاكل التي واجهها
+    </div>
+    <br><br>
+    <div class="dialogue left">
+      <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+      <span><strong>عمر: </strong>أووووه المدرسة مرة أخرى</span>
+    </div>
+    <div class="dialogue right">
+      <span><strong>الأم: </strong>نعم وماذا في ذلك يجب أن تدرس جيدا كي تكون مهندسا أو طبيبا</span>
+      <img width="100px" src="imgs/mother.png" alt="Person 2">
+    </div>
+    <div class="dialogue right">
+      <span><strong>الأب: </strong>ماذا قلت كررها مرة أخرى إن كانو يسمونك رجلا هل تتذمر من المدرسة مرة أخرى تعرف أننا
+        ندفع المال هنا </span>
+      <img width="100px" src="imgs/parent.png" alt="Person 2">
+    </div>
+    <div class="dialogue left">
+      <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+      <span><strong>عمر: </strong>تعرفون أن هذه رابع مرة أنتقل منها من مدرسة لأخرى</span>
+    </div>
+
+
+    <div class="dialogue right">
+      <span><strong>الأب: </strong> هذا لأن رأسك فارغ لا تحصل على نقاط جيدة كل زملائك يمرون و أنت تبقى دائما في الخلف
+      </span>
+      <img width="100px" src="imgs/parent.png" alt="Person 2">
+    </div>
+    <div class="dialogue right">
+      <span><strong>الأم: </strong>أنت على حق دائما ما يحرجني أمام أمهات اصدقائه حتى هم لا يتوقفون عن الكلام عن المدرسة
+        في جلاستهم يفعلون هذا عمدا بسبب ولدي</span>
+      <img width="100px" src="imgs/mother.png" alt="Person 2">
+    </div>
+    <div class="dialogue left">
+      <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+      <span><strong>عمر: </strong> أنتم حقا لا تساعدونني ولو قليلا سئمت منكم <br>
+        <div style="background: #eee; padding: 5px; border-radius: 5px">
+          عمر يفكر مع نفسه في هذا الموقف : لا يعرفون أنني دائما أتعرض للتنمر وهذا يقلل من تركيزي و هؤلاء الذين تسمونهم
+          أصدقاء مجرد مستغلين لي
+        </div>
+      </span>
+    </div>
+
+    <div class="dialogue right">
+      <span><strong>الأب: </strong>إذا إنتهيت فل تنم وتستعد غدا سأنقلك إلى مدرستك الجديدة فل تكن مع وفاق مع الأولاد
+        الأخارين </span>
+      <img width="100px" src="imgs/parent.png" alt="Person 2">
+    </div>
+    <div dir="rtl"
+      style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+      بعد نوم عمر ومعناته في تفكره أن غدا يومه الأول في المدرسة و نومه نوما عميقا
+    </div>
+    <div class="dialogue right">
+      <span><strong>الأم: </strong>أين ذلك الحداء هذا الولد الغبي لم يستيقط إلى الآن هل ينوي التأخر في يومه الأول</span>
+      <img width="100px" src="imgs/mother.png" alt="Person 2">
+    </div>
+    <div class="dialogue left">
+      <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+      <span><strong>عمر: </strong>ماهذا الإزعاج في الصباح الباكر حسنا حسنا أنا قادم</span>
+    </div>
+    <div dir="rtl"
+      style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+      بعد إستيقاط عمر وتناوله الفطور و لبس الملابس إستعدادا للمدرسة دهب مع والده في السيارة...
+    </div>
+    <div class="dialogue right">
+      <span><strong>الأب: </strong>
+        <div style="background: #eee; border-radius:6px; padding: 5px">
+          الأب يفكر مع نفسه: لماذا تعابير وجهه لا تبدو طبيعية وجدتها ربما هو خجول لملاقات أصدقائه الجدد
+        </div>
+      </span>
+      <img width="100px" src="imgs/parent.png" alt="Person 2">
+    </div>
+    <div class="dialogue left">
+      <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+      <span><strong>عمر: </strong>أوووه المدرسة كبيرة و جميلة أتمنى أن أكون على وفاق معهم</span>
+    </div>
+    <div dir="rtl"
+      style="background: #f9f9f9; box-shadow: 0 0 10px #66666649; border-radius: 5px; padding: 10px; margin:10px 8px">
+      دخل عمر للمدرسة و ذهب إلى أول مادة لذيه وذخل القسم....
+    </div>
+    <div class="dialogue right">
+      <img style="width: 100px" src="imgs/teacher.png" alt="Person 1">
+      <span><strong>الأستادة: </strong>فل تصمتوا جميعا معنا تلميد جديد أتمنى أن ترحبو به جميعا فل تذخل يا عمر وعرفنا
+        بنفسك ولا تخجل</span>
+    </div>
+    <div class="dialogue left">
+      <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+      <span><strong>عمر: </strong> مرحبا جميع إسمي عمر و اتمنى أن نكون جميعا أصدقاء جيدين</span>
+    </div>
+    <div class="dialogue right">
+      <img style="width: 100px" src="imgs/badboy2.png" alt="Person 1">
+      <span><strong>حمزة: </strong>ههههههههههه يهمس لزميله "ضحية جديدة يإبراهيم رأيت رأيت إنه خجول"</span>
+    </div>
+    <div class="dialogue right">
+      <img style="width: 100px" src="imgs/badboy1.png" alt="Person 1">
+      <span><strong>إبراهيم: </strong>يهمس هو الآخر "نعم نهم أعتقد هذه السنة لن تكون مملة كالسنة الماضية أرسلنا كل
+        الأولاد إلى مدارس أخرى لم يتحملو هههه"</span>
+    </div>
+    <div class="dialogue right">
+      <img style="width: 100px" src="imgs/teacher.png" alt="Person 1">
+      <span><strong>الأستادة: </strong>فل تتعرفو على صديقكم أكثر يمكنكم كرح بعض الأسئلة عليه</span>
+    </div>
+    <div class="dialogue right">
+      <img style="width: 100px" src="imgs/badboy2.png" alt="Person 1">
+      <span><strong>حمزة: </strong>يهمس لصديق: "أنظر سأسله عن مواهبه أضمن لك لن تكون له أي موهبة" ماهي موهبتك يا
+        عمر؟</span>
+    </div>
+    <div class="dialogue left">
+      <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+      <span><strong>عمر: </strong>عمر يفكر مع نفسه: "موهبة مممم ماهي موهبتي لا أعرف بماذا أجيب أوووه أضن أنني أحب حل
+        المشاكل ولكن هذه ليست موهبة مممم"</span>
+    </div>
+    <div class="dialogue right">
+      <img style="width: 100px" src="imgs/badboy2.png" alt="Person 1">
+      <span><strong>حمزة: </strong>لا تطل في التفكير كثيرا ليس لذيك موهبة لاجدوى من البحث عنها أنظر فقط إلى شكلك (القسم
+        يضحك)</span>
+    </div>
+    <div class="dialogue right">
+      <img style="width: 100px" src="imgs/teacher.png" alt="Person 1">
+      <span><strong>الأستادة: </strong>أعد ما قلته و ستخرج من الفصل</span>
+    </div>
+    <div class="dialogue right">
+      <img style="width: 100px" src="imgs/badboy2.png" alt="Person 1">
+      <span><strong>حمزة: </strong>أحسن الخروج و لا أنظر لوجهه لن يكون هناك فرق بين الحضور والغياب مع وجهه الغبي هههه
+      </span>
+    </div>
+    <div class="dialogue left">
+      <img style="width: 100px" src="imgs/omar.png" alt="Person 1">
+      <span><strong>عمر: </strong>عمر يفكر مع نفسه: "لا أعرف لماذا أنا دائما هذه المرة الخامسة في حياتي أتعرض لنفس
+        الموقف في خمس أماكن مختلف يالي من مثير للشفقة لا أستطع نطق ولو كلمة ذائما الأشياء التي أريد قولها تحدث في عقلي
+        وليس الواقع"</span>
+    </div>
+    <div dir="rtl"
+      style="background: #f9f9f9; box-shadow: 0 0 20px #66666649; border-radius: 5px; padding: 20px; margin:10px 8px; font-size: 50px;text-align: center;">
+      .....
+    </div>
+  </div>
+</body>
+</html>
